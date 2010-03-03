@@ -47,7 +47,7 @@ and pattern matching and powerful abstractions like monads. Yet,
 functional programming does not embrace concurrency and distribution
 in its foundations. It is not based on a model of computation, like
 the actor model or the process calculi, in which the notion of
-execution that is fundamentally concurrent. That said, it meshes
+execution is fundamentally concurrent. That said, it meshes
 nicely with a variety of concurrency programming models. In
 particular, the combination of higher order functions (with the
 ability to pass functions as arguments and return functions as values)
@@ -63,7 +63,7 @@ robust, high-performance virtual machines. Both the \texttt{Java}
 Virtual Machine (\texttt{JVM}) and the Common Language Runtime
 (\texttt{CLR}) provide managed code execution environments that are
 not just competitive with their unmanaged counterparts (such as
-\texttt{C} and \texttt{C++}), but actually the dominant choice for
+\texttt{C} and \texttt{C++}), but are actually the dominant choice for
 many applications. This has two effects that are playing themselves
 out in terms of industry trends. Firstly, it provides some level of
 insulation between changes in hardware design (from single core per
@@ -85,7 +85,7 @@ not surprising, therefore, that we have seen an explosion in language
 proposals in the last several years, including \texttt{Clojure},
 \texttt{Fortress}, \texttt{Scala}, \texttt{F\#} and many others. It
 should not escape notice that all of the languages in that list are
-either functional languages, object-functional languages, and the
+either functional languages or object-functional languages, and the
 majority of the proposals coming out are either functional,
 object-functional or heavily influenced by functional language design
 concepts.
@@ -105,8 +105,8 @@ about this, but needs to be deferred to a point where more context has
 been developed. Deep simplicity and compositionality are properties
 and principles that take quite some time to appreciate while some of
 the practical reasons that recent language design proposals have been
-so heavily influenced by functional language design principles is
-easily understood by even the most impatient of pragmatic of
+so heavily influenced by functional language design principles are
+easily understood by even the most impatient and pragmatic of
 programmers: functional language design has made significant and
 demonstrable progress addressing performance issues that plagued it at
 the beginning. Moreover, these developments have significant
@@ -130,7 +130,7 @@ However, while many industry shops were throwing out functional
 languages, except for niche applications, work was going on that would
 reverse this trend. One of the key developments in this was an early
 bifurcation of functional language designs at a fairly fundamental
-level. The \texttt{Lisp} family of languages are untyped and
+level. The \texttt{Lisp} family of languages is untyped and
 dynamic. In the modern world the lack of typing might seem egregiously
 unmaintainable, but by comparison to \texttt{C} it was more than made
 up for by the kind of dynamic meta-programming that these languages
